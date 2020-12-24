@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+:root {
+  --color-samurai: #0e0e0e;
+  --color-red: #ae001b;
+  --color-need: #202024;
+  --yellow-color: #fcee09; 
+  --red-color: #ff003c;
+  --black-color: #050a0e;
+  --blue-color: #00f0ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: var(--color-need);
+}
+
+header {
+text-align: center;
+align-items: center;
+background: var(--color-samurai);
+}
+
+.logo img {
+  padding: 5px;
+  height: 150px;
+}
+
+.name {
+  padding: 20px;
+}
+
+.name a {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Tomorrow, sans-serif;
+  color: var(--yellow-color);
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.menu a{
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 10px 15px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* STYLE SLIDER */
+
+.rec {
+  margin: 20px;
+  background: var(--color-back);
+ }
+ 
+ #sliders {
+   list-style: none;
+   position: relative;
+   width: 1200px;
+   height: 300px;
+   margin: auto;
+   overflow: hidden;
+ }
+ 
+ #sliders li {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   z-index: 0;
+   -webkit-transition: opacity 1s;
+   -moz-transition: opacity 1s;
+   transition: opacity 1s;
+ }
+ 
+ #sliders li.slider-active {
+   z-index: 1;
+   opacity: 1;
+ }
+
+/* STYLE SLIDER */
+
+/* STYLE SALE HOME */
+
+.cask {
+  font-size: 22PX;
+  color: var(--yellow-color);
+  font-family: Tomorrow, sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+/* STYLE SALE HOME */
+
+.itens {
+  padding: 10px;
+  margin: 10px;
+}
+
+.sale img {
+  height: 200px;
+}
