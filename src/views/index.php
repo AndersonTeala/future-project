@@ -17,7 +17,8 @@
     <div class="menu">
       <a href="/">HOME</a>
       <a href="/">SOBRE</a>
-      <a href="/">DESTAQUES</a>
+      <a href="/">DESTAQUE</a>
+      <a href="/">EM ALTA</a>
       <a href="/">CONTATO</a>
     </div>
   </header>
