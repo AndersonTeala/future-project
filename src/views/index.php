@@ -38,7 +38,7 @@
     <h1>DESTAQUES</h1>
   </div>
 
-  <!-- <div class="itens">
+<!--   <div class="itens">
     <div class="sale">
       <img src="/images/sale/johnny.jpg" alt="">
     </div>
